@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background: linear-gradient(to right, rgb(58, 155, 188), transparent);
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      .glassmorphism-container {
+        height: 200px;
+        background: rgba(161, 148, 148, 0.15);
+        backdrop-filter: blur(10px);
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 4px 6px rgba(1, 14, 15, 0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      label {
+        font-size: 18px;
+        color: black;
+        margin-right: 5px;
+      }
+
+      input {
+        padding: 20px;
+        font-size: 16px;
+        width: 300px;
+        background-color: transparent;
+        border: 1px solid #050101;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        outline: none;
+      }
+      input[list="City"]::-webkit-calendar-picker-indicator {
+        opacity: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="glassmorphism-container">
+      <label>Enter City Name:</label>
+      <input list="City" />
+      <datalist id="City">
+        <option value="Delhi"></option>
+        <option value="Mumbai"></option>
+        <option value="Kolkata"></option>
+        <option value="Chennai"></option>
+        <option value="Bangalore"></option>
+        <option value="Hyderabad"></option>
+        <option value="Ahmedabad"></option>
+        <option value="Pune"></option>
+        <option value="Jaipur"></option>
+        <option value="Lucknow"></option>
+        <option value="Thiruvananthapuram"></option>
+        <option value="Vadodara"></option>
+        <option value="Nagpur"></option>
+        <option value="Coimbatore"></option>
+        <option value="Amritsar"></option>
+        <option value="Visakhapatnam"></option>
+        <option value="Surat"></option>
+        <option value="Jodhpur"></option>
+        <option value="Kanpur"></option>
+        <option value="Madurai"></option>
+        <option value="Jamshedpur"></option>
+        <option value="Allahabad"></option>
+        <option value="Bhopal"></option>
+        <option value="Patna"></option>
+        <option value="Indore"></option>
+        <option value="Kochi"></option>
+        <option value="Ahmedabad"></option>
+        <option value="Bangalore"></option>
+        <option value="Chennai"></option>
+        <option value="Delhi"></option>
+        <option value="Hyderabad"></option>
+        <option value="Jaipur"></option>
+        <option value="Kolkata"></option>
+        <option value="Mumbai"></option>
+        <option value="Pune"></option>
+        <option value="Agra"></option>
+        <option value="Ajmer"></option>
+        <option value="Amritsar"></option>
+        <option value="Aurangabad"></option>
+        <option value="Bhopal"></option>
+        <option value="Bhubaneswar"></option>
+        <option value="Chandigarh"></option>
+        <option value="Coimbatore"></option>
+        <option value="Dehradun"></option>
+        <option value="Faridabad"></option>
+        <option value="Ghaziabad"></option>
+        <option value="Goa"></option>
+        <option value="Gurgaon"></option>
+        <option value="Guwahati"></option>
+        <option value="Indore"></option>
+        <option value="Jabalpur"></option>
+        <option value="Jodhpur"></option>
+        <option value="Kanpur"></option>
+        <option value="Kochi"></option>
+        <option value="Lucknow"></option>
+        <option value="Ludhiana"></option>
+        <option value="Madurai"></option>
+        <option value="Nagpur"></option>
+        <option value="Nashik"></option>
+        <option value="Noida"></option>
+        <option value="Patna"></option>
+        <option value="Pondicherry"></option>
+        <option value="Raipur"></option>
+        <option value="Rajkot"></option>
+        <option value="Ranchi"></option>
+        <option value="Shimla"></option>
+        <option value="Surat"></option>
+        <option value="Thiruvananthapuram"></option>
+        <option value="Udaipur"></option>
+        <option value="Vadodara"></option>
+        <option value="Varanasi"></option>
+        <option value="Vijayawada"></option>
+        <option value="Warangal"></option>
+      </datalist>
+    </div>
+  </body>
+</html>
